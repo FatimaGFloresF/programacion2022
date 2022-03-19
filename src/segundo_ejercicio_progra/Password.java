@@ -6,14 +6,14 @@ public class Password {
     private int longitud;
     public String contrasenia;
     //Por defecto la longitud será de 8
-    private final static int LONG_DEFAULT = 8;
+    private final static int LONGITUD_DEFAULT = 8;
     private final static int SECURE_PASSW_NUMERO = 5;
     private final static int SECURE_PASSW_MAYUSCULA = 2;
     private final static int SECURE_PASSW_MINUSCULA = 1;
 
 //Creación de los Constructores
     public Password() {
-        this.longitud = LONG_DEFAULT;
+        this.longitud = LONGITUD_DEFAULT;
         this.contrasenia = contrasenia;
     }
 
